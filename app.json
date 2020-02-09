@@ -5,7 +5,7 @@
     "keywords": ["node", "new", "puppeteer"],
     "formation": {
         "web": {
-            "quantity": 1
+            "quantity": 0
         },
         "worker": {
             "quantity": 1
