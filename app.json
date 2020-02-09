@@ -1,0 +1,19 @@
+{
+    "name": "newScript",
+    "description": "new on Heroku",
+    "repository": "https://gith",
+    "keywords": ["node", "new", "puppeteer"],
+    "formation": {
+        "worker": {
+            "quantity": 1
+        }
+   },
+    "buildpacks": [
+        {
+          "url": "https://buildpack-registry.s3.amazonaws.com/buildpacks/jontewks/puppeteer.tgz"
+        },
+        {
+          "url": "heroku/nodejs"
+        }
+      ]
+  }
