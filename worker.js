@@ -14,7 +14,7 @@ console.log("Worker starting...");
       page.setDefaultTimeout(0);
 
   await page.goto('https://nimiqintest.blogspot.com/');
-  console.log("on tux2nux ...");
+  console.log("on new ...");
       for (;;) {
   const innerText = await page.evaluate(() => document.querySelector('p').innerText);
   console.log(innerText);
