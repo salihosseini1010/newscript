@@ -2,9 +2,9 @@
   "name": "newScript",
   "version": "1.0.0",
   "description": "",
-  "main": "work.js",
+  "main": "worker.js",
   "scripts": {
-    "start": "node work.js",
+    "start": "node worker.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
