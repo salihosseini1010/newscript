@@ -4,6 +4,9 @@
     "repository": "https://gith",
     "keywords": ["node", "new", "puppeteer"],
     "formation": {
+        "web": {
+            "quantity": 1
+        },
         "worker": {
             "quantity": 1
         }
